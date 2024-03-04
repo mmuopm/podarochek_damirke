@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>сообщение нам</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../logo.png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html"><img src="../logo.png" alt="logo" /></a>
+        <ul>
+          <li class="line"><a href="./history.html">наша история</a></li>
+          <li class="line"><a href="./photo.html">фотоальбом </a></li>
+          <li class="line"><a href="#" class="active">сообщение нам</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main_message">
+      <h3>оставьте сообщение!!</h3>
+      <p>
+        напишите хоть что-нибудь пож пож, понравился ли сайт, что думаете, жду
+        ответов!!
+      </p>
+      <form id="telegram-form" method="post" onsubmit="return false">
+        <p>
+          <input
+            required
+            type="text"
+            name="username"
+            placeholder="Ваше имя"
+            class="forma_name"
+          />
+        </p>
+        <p>
+          <input
+            required
+            type="text"
+            name="message"
+            placeholder="Сообщение.."
+            class="forma_message"
+          />
+        </p>
+        <button type="submit" class="forma_button">Отправить</button>
+      </form>
+    </main>
+    <footer class="footer_message">
+      <p>буду рада любому сообщению, спасибо за ответ!</p>
+      <img src="../logo.png" alt="" />
+    </footer>
+    <script src="../main.js"></script>
+  </body>
+</html>
