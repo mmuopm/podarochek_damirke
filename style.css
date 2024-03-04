@@ -270,10 +270,12 @@ nav li {
   align-items: center;
   text-align: center;
   margin-bottom: 50px;
+
 }
 
 .block_img2 img {
-  margin-bottom: 50px;
+  margin-bottom: 50px;  
+  border-radius: 5px;
 }
 
 .main_history p {
@@ -469,12 +471,15 @@ form {
   font-weight: bold;
   border-radius: 30px;
   margin-bottom: 70px;
+  box-shadow: 1px 4px 5px #afafaf;
+  transition: 0.5s;
 }
 
 .forma_button:hover {
   border-radius: 30px;
   color: #9ea2fd;
   background: #fff;
+  box-shadow:  7px 7px 7px #9ea2fd;
 }
 
 /*footer_message*/
