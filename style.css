@@ -15,6 +15,13 @@
   }
 }
 
+@keyframes slide-in {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +90,9 @@ nav li {
   align-items: center;
   border-radius: 20px;
   margin-top: 40px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2.5s forwards;
 }
 
 .fon p {
